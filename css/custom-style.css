@@ -1,0 +1,76 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #3D2C5C;
+    padding: 15px;
+}
+nav a {
+    color: #00A896;
+    text-decoration: none;
+    margin: 0 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-image: url('path/to/your/hero-image.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+/* Card Styling */
+.card {
+    background-color: white;
+    border: 1px solid #00A896;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #3D2C5C;
+}
+
+.card-content {
+    color: #555;
+}
+
+/* Categories */
+.category {
+    background-color: #3D2C5C;
+    color: #00A896;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+    .card {
+        margin: 10px;
+    }
+}
+
+/* Color Scheme */
+body {
+    background-color: #FAFAFA;
+    color: #3D2C5C;
+}
